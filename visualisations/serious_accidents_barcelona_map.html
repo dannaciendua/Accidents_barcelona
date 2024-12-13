@@ -1,0 +1,2205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_3319089abb0314c50f44879091103817 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_3319089abb0314c50f44879091103817" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_3319089abb0314c50f44879091103817 = L.map(
+                "map_3319089abb0314c50f44879091103817",
+                {
+                    center: [41.3851, 2.1734],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9220d0fe20d53c307a92a9603827e046 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_9220d0fe20d53c307a92a9603827e046.addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var marker_4d82afe4e17db24202129e68ffba297e = L.marker(
+                [41.4360567382316, 2.18523609843718],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_f1ef65d96148043849b908a78c81d849 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d82afe4e17db24202129e68ffba297e.setIcon(icon_f1ef65d96148043849b908a78c81d849);
+        
+    
+        var popup_795f9cfec62494d60d8ad9c7226fcab5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ede3f921b05629dea691548c99683c0 = $(`<div id="html_1ede3f921b05629dea691548c99683c0" style="width: 100.0%; height: 100.0%;">Reason: Not respecting pedestrian crossings</div>`)[0];
+                popup_795f9cfec62494d60d8ad9c7226fcab5.setContent(html_1ede3f921b05629dea691548c99683c0);
+            
+        
+
+        marker_4d82afe4e17db24202129e68ffba297e.bindPopup(popup_795f9cfec62494d60d8ad9c7226fcab5)
+        ;
+
+        
+    
+    
+            var marker_e2f9b96f80035a4bed811529cfe40b40 = L.marker(
+                [41.4197439502876, 2.14996387706882],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_a44e86f03b598d68321da33d4da1d8ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e2f9b96f80035a4bed811529cfe40b40.setIcon(icon_a44e86f03b598d68321da33d4da1d8ee);
+        
+    
+        var popup_944dc595d75fef71fa9574018a4f9ad9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3ef32a65e9a92bb97e5c42e3c568368 = $(`<div id="html_b3ef32a65e9a92bb97e5c42e3c568368" style="width: 100.0%; height: 100.0%;">Reason: Disobeying other signals</div>`)[0];
+                popup_944dc595d75fef71fa9574018a4f9ad9.setContent(html_b3ef32a65e9a92bb97e5c42e3c568368);
+            
+        
+
+        marker_e2f9b96f80035a4bed811529cfe40b40.bindPopup(popup_944dc595d75fef71fa9574018a4f9ad9)
+        ;
+
+        
+    
+    
+            var marker_62159b5ec2dc30921733acdac1723ee5 = L.marker(
+                [41.3912642864543, 2.16937620861173],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_86ffd76631027bb94b39d623f317c9b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_62159b5ec2dc30921733acdac1723ee5.setIcon(icon_86ffd76631027bb94b39d623f317c9b1);
+        
+    
+        var popup_d91ce176a99ac7a24b95ec79ecda621e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e041e83dad1da80d62f6e02b11f373 = $(`<div id="html_26e041e83dad1da80d62f6e02b11f373" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_d91ce176a99ac7a24b95ec79ecda621e.setContent(html_26e041e83dad1da80d62f6e02b11f373);
+            
+        
+
+        marker_62159b5ec2dc30921733acdac1723ee5.bindPopup(popup_d91ce176a99ac7a24b95ec79ecda621e)
+        ;
+
+        
+    
+    
+            var marker_8c2ac2b6134c93729b5b294e37d3666b = L.marker(
+                [41.4321232761479, 2.17845974957742],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_ba8067bb5e925a309fc4eab35ced91eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8c2ac2b6134c93729b5b294e37d3666b.setIcon(icon_ba8067bb5e925a309fc4eab35ced91eb);
+        
+    
+        var popup_beb7c2f173c32a66284e3cfdda17c575 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_10664f29f2c9cb4517f658e9380c05f4 = $(`<div id="html_10664f29f2c9cb4517f658e9380c05f4" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_beb7c2f173c32a66284e3cfdda17c575.setContent(html_10664f29f2c9cb4517f658e9380c05f4);
+            
+        
+
+        marker_8c2ac2b6134c93729b5b294e37d3666b.bindPopup(popup_beb7c2f173c32a66284e3cfdda17c575)
+        ;
+
+        
+    
+    
+            var marker_11609f5ff5487df35114f19f4f8b8a8b = L.marker(
+                [41.4032520236917, 2.18609202028298],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_713b9dfe2ba148d96abb8f21e8477b42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_11609f5ff5487df35114f19f4f8b8a8b.setIcon(icon_713b9dfe2ba148d96abb8f21e8477b42);
+        
+    
+        var popup_e97935f15198e7f92be76c9b339b0668 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a2b5b6383fbd7d78548c7fe95a4f9a1 = $(`<div id="html_9a2b5b6383fbd7d78548c7fe95a4f9a1" style="width: 100.0%; height: 100.0%;">Reason: Not respecting distances</div>`)[0];
+                popup_e97935f15198e7f92be76c9b339b0668.setContent(html_9a2b5b6383fbd7d78548c7fe95a4f9a1);
+            
+        
+
+        marker_11609f5ff5487df35114f19f4f8b8a8b.bindPopup(popup_e97935f15198e7f92be76c9b339b0668)
+        ;
+
+        
+    
+    
+            var marker_8ee42ebd1df674bf1efa73b44b3eb53e = L.marker(
+                [41.328153322655, 2.11786666608279],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_e6c3b46e0e51eeae5cb221722ecbdfb9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8ee42ebd1df674bf1efa73b44b3eb53e.setIcon(icon_e6c3b46e0e51eeae5cb221722ecbdfb9);
+        
+    
+        var popup_dc6936cdcb79998247e4c5fc5c8809ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cc2994b9d8de1778154008fb14cb9a9 = $(`<div id="html_0cc2994b9d8de1778154008fb14cb9a9" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_dc6936cdcb79998247e4c5fc5c8809ff.setContent(html_0cc2994b9d8de1778154008fb14cb9a9);
+            
+        
+
+        marker_8ee42ebd1df674bf1efa73b44b3eb53e.bindPopup(popup_dc6936cdcb79998247e4c5fc5c8809ff)
+        ;
+
+        
+    
+    
+            var marker_77ed7de259f1c924823922ed02ab98c8 = L.marker(
+                [41.4457592537116, 2.18792102771335],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_ed4a2c3eda0ff575091be47b429f724f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_77ed7de259f1c924823922ed02ab98c8.setIcon(icon_ed4a2c3eda0ff575091be47b429f724f);
+        
+    
+        var popup_562dd5aa66b622c45ab7818b647139a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_faf39a4884a2d6b6ba8d8f5369704882 = $(`<div id="html_faf39a4884a2d6b6ba8d8f5369704882" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_562dd5aa66b622c45ab7818b647139a2.setContent(html_faf39a4884a2d6b6ba8d8f5369704882);
+            
+        
+
+        marker_77ed7de259f1c924823922ed02ab98c8.bindPopup(popup_562dd5aa66b622c45ab7818b647139a2)
+        ;
+
+        
+    
+    
+            var marker_922f71e223e52062d363f21ae5a6f20c = L.marker(
+                [41.4214144420665, 2.20950135033383],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_0c9e292127ef120a257a1429dab7b881 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_922f71e223e52062d363f21ae5a6f20c.setIcon(icon_0c9e292127ef120a257a1429dab7b881);
+        
+    
+        var popup_e3731f6dc56a7c14a3bc962f29a8e46f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa9f0e07cd6dc37dbb683229b38aede6 = $(`<div id="html_fa9f0e07cd6dc37dbb683229b38aede6" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_e3731f6dc56a7c14a3bc962f29a8e46f.setContent(html_fa9f0e07cd6dc37dbb683229b38aede6);
+            
+        
+
+        marker_922f71e223e52062d363f21ae5a6f20c.bindPopup(popup_e3731f6dc56a7c14a3bc962f29a8e46f)
+        ;
+
+        
+    
+    
+            var marker_0f3696b3179d2d8399af00d2f1c4545a = L.marker(
+                [41.4396475939305, 2.17511772416628],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_faf82f050138a30609d9848db8d4fc1a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0f3696b3179d2d8399af00d2f1c4545a.setIcon(icon_faf82f050138a30609d9848db8d4fc1a);
+        
+    
+        var popup_bcaf34910f891c9d85f0bb9c8b2f4d8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac8939960ef1c0120b007cb21590962d = $(`<div id="html_ac8939960ef1c0120b007cb21590962d" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_bcaf34910f891c9d85f0bb9c8b2f4d8f.setContent(html_ac8939960ef1c0120b007cb21590962d);
+            
+        
+
+        marker_0f3696b3179d2d8399af00d2f1c4545a.bindPopup(popup_bcaf34910f891c9d85f0bb9c8b2f4d8f)
+        ;
+
+        
+    
+    
+            var marker_1e009239326c71cce5d66e65b456d321 = L.marker(
+                [41.4294261321574, 2.16829943994648],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_ebb6979397a8f49cdf1119cebcee69fe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1e009239326c71cce5d66e65b456d321.setIcon(icon_ebb6979397a8f49cdf1119cebcee69fe);
+        
+    
+        var popup_5714c5042e4e2106fbb3e6357b1d1b21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef15c8f8af3b3c087ec6c830e91de1d9 = $(`<div id="html_ef15c8f8af3b3c087ec6c830e91de1d9" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_5714c5042e4e2106fbb3e6357b1d1b21.setContent(html_ef15c8f8af3b3c087ec6c830e91de1d9);
+            
+        
+
+        marker_1e009239326c71cce5d66e65b456d321.bindPopup(popup_5714c5042e4e2106fbb3e6357b1d1b21)
+        ;
+
+        
+    
+    
+            var marker_febe80efa29e45977c684086502fadbf = L.marker(
+                [41.4097083631879, 2.17325020510857],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_5cb8fc475d79b08ea593af9c39919b5a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_febe80efa29e45977c684086502fadbf.setIcon(icon_5cb8fc475d79b08ea593af9c39919b5a);
+        
+    
+        var popup_2002e2f2bfd20a3b4671ac8d724d3f5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f888a119a62fd5c4ae05321c846ad18 = $(`<div id="html_3f888a119a62fd5c4ae05321c846ad18" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_2002e2f2bfd20a3b4671ac8d724d3f5d.setContent(html_3f888a119a62fd5c4ae05321c846ad18);
+            
+        
+
+        marker_febe80efa29e45977c684086502fadbf.bindPopup(popup_2002e2f2bfd20a3b4671ac8d724d3f5d)
+        ;
+
+        
+    
+    
+            var marker_4413bfec0a6847b82f91abb74b7b35b5 = L.marker(
+                [41.3780950550812, 2.14931950440408],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_38cc6b4396fab23d29013f63c7f9f805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4413bfec0a6847b82f91abb74b7b35b5.setIcon(icon_38cc6b4396fab23d29013f63c7f9f805);
+        
+    
+        var popup_fd498f3c9d392093ebd4b5945a34319a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_72f47c5790c87237a5810dff6d6637a4 = $(`<div id="html_72f47c5790c87237a5810dff6d6637a4" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_fd498f3c9d392093ebd4b5945a34319a.setContent(html_72f47c5790c87237a5810dff6d6637a4);
+            
+        
+
+        marker_4413bfec0a6847b82f91abb74b7b35b5.bindPopup(popup_fd498f3c9d392093ebd4b5945a34319a)
+        ;
+
+        
+    
+    
+            var marker_f8558a1f63fb70f80faedb8d4504089a = L.marker(
+                [41.3840276596202, 2.18676642200942],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_05543cadfe9ed73f96b04847d61680d7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f8558a1f63fb70f80faedb8d4504089a.setIcon(icon_05543cadfe9ed73f96b04847d61680d7);
+        
+    
+        var popup_394c492c6125fc3c2417d50dfe1abd4a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed118b3b795c8fb3eb7086adb71b74d4 = $(`<div id="html_ed118b3b795c8fb3eb7086adb71b74d4" style="width: 100.0%; height: 100.0%;">Reason: Changing lanes without caution</div>`)[0];
+                popup_394c492c6125fc3c2417d50dfe1abd4a.setContent(html_ed118b3b795c8fb3eb7086adb71b74d4);
+            
+        
+
+        marker_f8558a1f63fb70f80faedb8d4504089a.bindPopup(popup_394c492c6125fc3c2417d50dfe1abd4a)
+        ;
+
+        
+    
+    
+            var marker_7072e29e6204ffc75f4b81fe931a853f = L.marker(
+                [41.3858791244028, 2.16413631073461],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_1d4f1ac273a468f563a5935b1dc6912a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7072e29e6204ffc75f4b81fe931a853f.setIcon(icon_1d4f1ac273a468f563a5935b1dc6912a);
+        
+    
+        var popup_f897b44ca9d9d9f555c203fef2c20df7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_074d94b5825a8c9aa8c1aff5458ce1a2 = $(`<div id="html_074d94b5825a8c9aa8c1aff5458ce1a2" style="width: 100.0%; height: 100.0%;">Reason: Changing lanes without caution</div>`)[0];
+                popup_f897b44ca9d9d9f555c203fef2c20df7.setContent(html_074d94b5825a8c9aa8c1aff5458ce1a2);
+            
+        
+
+        marker_7072e29e6204ffc75f4b81fe931a853f.bindPopup(popup_f897b44ca9d9d9f555c203fef2c20df7)
+        ;
+
+        
+    
+    
+            var marker_b50d889de9a6b5f775191060cd80638b = L.marker(
+                [41.3700598028706, 2.13259613839212],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_b13df27eb9aaa10e7e2aa0f06ba6a53d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b50d889de9a6b5f775191060cd80638b.setIcon(icon_b13df27eb9aaa10e7e2aa0f06ba6a53d);
+        
+    
+        var popup_cb1941eff6786bc92fbb1e6422795806 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5bbe9124c32cf16fb002fd857347b00f = $(`<div id="html_5bbe9124c32cf16fb002fd857347b00f" style="width: 100.0%; height: 100.0%;">Reason: Improper or careless turn</div>`)[0];
+                popup_cb1941eff6786bc92fbb1e6422795806.setContent(html_5bbe9124c32cf16fb002fd857347b00f);
+            
+        
+
+        marker_b50d889de9a6b5f775191060cd80638b.bindPopup(popup_cb1941eff6786bc92fbb1e6422795806)
+        ;
+
+        
+    
+    
+            var marker_983b48b26b10d42a039953f7ababace1 = L.marker(
+                [41.3977853278653, 2.150435721155],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_ba51ddcde795531e9350549573af0a18 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_983b48b26b10d42a039953f7ababace1.setIcon(icon_ba51ddcde795531e9350549573af0a18);
+        
+    
+        var popup_8f3fbc6c17798f4003eb5e76827c9ebf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fa47942071f78a8741b57abcdecec482 = $(`<div id="html_fa47942071f78a8741b57abcdecec482" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_8f3fbc6c17798f4003eb5e76827c9ebf.setContent(html_fa47942071f78a8741b57abcdecec482);
+            
+        
+
+        marker_983b48b26b10d42a039953f7ababace1.bindPopup(popup_8f3fbc6c17798f4003eb5e76827c9ebf)
+        ;
+
+        
+    
+    
+            var marker_d9f3893ab8ad35db58b9d3e88782b69f = L.marker(
+                [41.443028446113, 2.16618507242611],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_92e98a6ff9e3717763283ced45a01620 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d9f3893ab8ad35db58b9d3e88782b69f.setIcon(icon_92e98a6ff9e3717763283ced45a01620);
+        
+    
+        var popup_77fa8bb15c665a1eca1a063612e4b12f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f9133917a8e79d3172ad7bbe2255fa4 = $(`<div id="html_0f9133917a8e79d3172ad7bbe2255fa4" style="width: 100.0%; height: 100.0%;">Reason: Not respecting distances</div>`)[0];
+                popup_77fa8bb15c665a1eca1a063612e4b12f.setContent(html_0f9133917a8e79d3172ad7bbe2255fa4);
+            
+        
+
+        marker_d9f3893ab8ad35db58b9d3e88782b69f.bindPopup(popup_77fa8bb15c665a1eca1a063612e4b12f)
+        ;
+
+        
+    
+    
+            var marker_4a6872c8b3df82c15e10d4c6cebd5029 = L.marker(
+                [41.4140022668091, 2.16865584119696],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_36c3fa868a862dfc33bb7df4d86e9fff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4a6872c8b3df82c15e10d4c6cebd5029.setIcon(icon_36c3fa868a862dfc33bb7df4d86e9fff);
+        
+    
+        var popup_3c8b2ec3159b09d3fce8f96e73f82083 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e22db718de3ae6674c92f534bb596c3a = $(`<div id="html_e22db718de3ae6674c92f534bb596c3a" style="width: 100.0%; height: 100.0%;">Reason: Lack of precaution entering traffic</div>`)[0];
+                popup_3c8b2ec3159b09d3fce8f96e73f82083.setContent(html_e22db718de3ae6674c92f534bb596c3a);
+            
+        
+
+        marker_4a6872c8b3df82c15e10d4c6cebd5029.bindPopup(popup_3c8b2ec3159b09d3fce8f96e73f82083)
+        ;
+
+        
+    
+    
+            var marker_ffb881a1daceded4f0e5d7dab24f76c8 = L.marker(
+                [41.4382407163072, 2.18438932603607],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_c38c745ea2ea1dae4bd511bea6711427 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ffb881a1daceded4f0e5d7dab24f76c8.setIcon(icon_c38c745ea2ea1dae4bd511bea6711427);
+        
+    
+        var popup_8fdffb03e649cb216bd2994047c9a1fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cdd9ca7946a4e8b133ce3c6fdd66a60 = $(`<div id="html_0cdd9ca7946a4e8b133ce3c6fdd66a60" style="width: 100.0%; height: 100.0%;">Reason: Not respecting pedestrian crossings</div>`)[0];
+                popup_8fdffb03e649cb216bd2994047c9a1fa.setContent(html_0cdd9ca7946a4e8b133ce3c6fdd66a60);
+            
+        
+
+        marker_ffb881a1daceded4f0e5d7dab24f76c8.bindPopup(popup_8fdffb03e649cb216bd2994047c9a1fa)
+        ;
+
+        
+    
+    
+            var marker_eb6ddcaf6f77a4f10e54eb4b40a19574 = L.marker(
+                [41.3922623847, 2.16815109274312],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_f1b74b1989e5edf74d80779f96cd64ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_eb6ddcaf6f77a4f10e54eb4b40a19574.setIcon(icon_f1b74b1989e5edf74d80779f96cd64ba);
+        
+    
+        var popup_43d7a5b012cadafe47c09afe0b6e3705 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2255adf544ca32641de1efb78c0e068 = $(`<div id="html_f2255adf544ca32641de1efb78c0e068" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_43d7a5b012cadafe47c09afe0b6e3705.setContent(html_f2255adf544ca32641de1efb78c0e068);
+            
+        
+
+        marker_eb6ddcaf6f77a4f10e54eb4b40a19574.bindPopup(popup_43d7a5b012cadafe47c09afe0b6e3705)
+        ;
+
+        
+    
+    
+            var marker_aa15fb9368779d84a1fb332d4049d16e = L.marker(
+                [41.39333071151, 2.1720901905587],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_b86fab5885089d0444764b4bb0b3374c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa15fb9368779d84a1fb332d4049d16e.setIcon(icon_b86fab5885089d0444764b4bb0b3374c);
+        
+    
+        var popup_0dfe4fe6cff4e593868875c6cf02bebc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3e236416f27d09b9698c332ff276566 = $(`<div id="html_b3e236416f27d09b9698c332ff276566" style="width: 100.0%; height: 100.0%;">Reason: Disobeying other signals</div>`)[0];
+                popup_0dfe4fe6cff4e593868875c6cf02bebc.setContent(html_b3e236416f27d09b9698c332ff276566);
+            
+        
+
+        marker_aa15fb9368779d84a1fb332d4049d16e.bindPopup(popup_0dfe4fe6cff4e593868875c6cf02bebc)
+        ;
+
+        
+    
+    
+            var marker_cf52fbe5f88409c501fe039096993eef = L.marker(
+                [41.4119372989321, 2.21531485197057],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_bfda969467bf7dde019b71bdd92eb49a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cf52fbe5f88409c501fe039096993eef.setIcon(icon_bfda969467bf7dde019b71bdd92eb49a);
+        
+    
+        var popup_7569a67f5c1c1e700abad25b0591ef74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_261b7067ab70eda579210dd8f047f780 = $(`<div id="html_261b7067ab70eda579210dd8f047f780" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_7569a67f5c1c1e700abad25b0591ef74.setContent(html_261b7067ab70eda579210dd8f047f780);
+            
+        
+
+        marker_cf52fbe5f88409c501fe039096993eef.bindPopup(popup_7569a67f5c1c1e700abad25b0591ef74)
+        ;
+
+        
+    
+    
+            var marker_17d985d669f6edc0685cd447589a5b7e = L.marker(
+                [41.394899498042, 2.14220320104427],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_0861be32296b8dc6543cead61e6223ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_17d985d669f6edc0685cd447589a5b7e.setIcon(icon_0861be32296b8dc6543cead61e6223ed);
+        
+    
+        var popup_e83987686baee65b8d9430379dc8d4df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec792fdab512d75899698c0fff6892c8 = $(`<div id="html_ec792fdab512d75899698c0fff6892c8" style="width: 100.0%; height: 100.0%;">Reason: Improper or careless turn</div>`)[0];
+                popup_e83987686baee65b8d9430379dc8d4df.setContent(html_ec792fdab512d75899698c0fff6892c8);
+            
+        
+
+        marker_17d985d669f6edc0685cd447589a5b7e.bindPopup(popup_e83987686baee65b8d9430379dc8d4df)
+        ;
+
+        
+    
+    
+            var marker_1cff69d912f2743113697beb866de391 = L.marker(
+                [41.3879329714272, 2.1719661066321],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_16293d2dc5421d49fc156adf33f5da89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1cff69d912f2743113697beb866de391.setIcon(icon_16293d2dc5421d49fc156adf33f5da89);
+        
+    
+        var popup_2fd2e89cadf57705ea90b907678fcc56 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afbf28208ff480c083d2e8951853a992 = $(`<div id="html_afbf28208ff480c083d2e8951853a992" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_2fd2e89cadf57705ea90b907678fcc56.setContent(html_afbf28208ff480c083d2e8951853a992);
+            
+        
+
+        marker_1cff69d912f2743113697beb866de391.bindPopup(popup_2fd2e89cadf57705ea90b907678fcc56)
+        ;
+
+        
+    
+    
+            var marker_c9f13e3ff0476f5f61c0023cc4571f6b = L.marker(
+                [41.4316159414375, 2.15825696355766],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_34c48d177713ae42217d70633f03f39c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c9f13e3ff0476f5f61c0023cc4571f6b.setIcon(icon_34c48d177713ae42217d70633f03f39c);
+        
+    
+        var popup_696af32339d0911553d829b7b018fbb9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39e088375d79c1ff9e7ba80adb3ad034 = $(`<div id="html_39e088375d79c1ff9e7ba80adb3ad034" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_696af32339d0911553d829b7b018fbb9.setContent(html_39e088375d79c1ff9e7ba80adb3ad034);
+            
+        
+
+        marker_c9f13e3ff0476f5f61c0023cc4571f6b.bindPopup(popup_696af32339d0911553d829b7b018fbb9)
+        ;
+
+        
+    
+    
+            var marker_ddcc5580f13545317076896324d5c9a4 = L.marker(
+                [41.3852413757108, 2.19011855840583],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_23ad56e6afd18ce505f065b5094047f4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ddcc5580f13545317076896324d5c9a4.setIcon(icon_23ad56e6afd18ce505f065b5094047f4);
+        
+    
+        var popup_104dd03b07277e96a24de7c36fc9a8d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_016312b11b7e7e9fe537a42a415ee138 = $(`<div id="html_016312b11b7e7e9fe537a42a415ee138" style="width: 100.0%; height: 100.0%;">Reason: Not respecting distances</div>`)[0];
+                popup_104dd03b07277e96a24de7c36fc9a8d6.setContent(html_016312b11b7e7e9fe537a42a415ee138);
+            
+        
+
+        marker_ddcc5580f13545317076896324d5c9a4.bindPopup(popup_104dd03b07277e96a24de7c36fc9a8d6)
+        ;
+
+        
+    
+    
+            var marker_bd18259e302d060c210e00e44f582bbf = L.marker(
+                [41.3856633858007, 2.18541104012252],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_05a8449548c656e682fd8feeb2185d42 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bd18259e302d060c210e00e44f582bbf.setIcon(icon_05a8449548c656e682fd8feeb2185d42);
+        
+    
+        var popup_5c3a958e6c7d6d96cbaab89159f6dad9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97c3be2794ae73d8d61ff842fab724fb = $(`<div id="html_97c3be2794ae73d8d61ff842fab724fb" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_5c3a958e6c7d6d96cbaab89159f6dad9.setContent(html_97c3be2794ae73d8d61ff842fab724fb);
+            
+        
+
+        marker_bd18259e302d060c210e00e44f582bbf.bindPopup(popup_5c3a958e6c7d6d96cbaab89159f6dad9)
+        ;
+
+        
+    
+    
+            var marker_27a13a98d31f72c017efb4ce549036d2 = L.marker(
+                [41.3979738703918, 2.17151089920086],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_c174e61201bef47a06b30284f9e66982 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27a13a98d31f72c017efb4ce549036d2.setIcon(icon_c174e61201bef47a06b30284f9e66982);
+        
+    
+        var popup_530418145c81423dd433ed0fb02afcfb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fd1c6f3b66ba1204d954992a72b871f6 = $(`<div id="html_fd1c6f3b66ba1204d954992a72b871f6" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_530418145c81423dd433ed0fb02afcfb.setContent(html_fd1c6f3b66ba1204d954992a72b871f6);
+            
+        
+
+        marker_27a13a98d31f72c017efb4ce549036d2.bindPopup(popup_530418145c81423dd433ed0fb02afcfb)
+        ;
+
+        
+    
+    
+            var marker_5e5f7a42707c4633236b6717d8daf3ba = L.marker(
+                [41.3910056676159, 2.13349031262782],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_26d849f02bf57eb64624c1fb10a5fe7f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_5e5f7a42707c4633236b6717d8daf3ba.setIcon(icon_26d849f02bf57eb64624c1fb10a5fe7f);
+        
+    
+        var popup_3718a2f8f5a0b98fbf578e78478e6b51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e63e40702a1cab1c165f6afecee75ba7 = $(`<div id="html_e63e40702a1cab1c165f6afecee75ba7" style="width: 100.0%; height: 100.0%;">Reason: Improper/defective overtaking</div>`)[0];
+                popup_3718a2f8f5a0b98fbf578e78478e6b51.setContent(html_e63e40702a1cab1c165f6afecee75ba7);
+            
+        
+
+        marker_5e5f7a42707c4633236b6717d8daf3ba.bindPopup(popup_3718a2f8f5a0b98fbf578e78478e6b51)
+        ;
+
+        
+    
+    
+            var marker_46fca892c85323b391716015da8dc629 = L.marker(
+                [41.3993879580654, 2.17313889235591],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_c5d13710c4162f3e4e27cd28e2e690de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_46fca892c85323b391716015da8dc629.setIcon(icon_c5d13710c4162f3e4e27cd28e2e690de);
+        
+    
+        var popup_bc124353649f215afe27f053d8248c53 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f690b45137dc0d5fcb7ac0be3b5eab16 = $(`<div id="html_f690b45137dc0d5fcb7ac0be3b5eab16" style="width: 100.0%; height: 100.0%;">Reason: Improper or careless turn</div>`)[0];
+                popup_bc124353649f215afe27f053d8248c53.setContent(html_f690b45137dc0d5fcb7ac0be3b5eab16);
+            
+        
+
+        marker_46fca892c85323b391716015da8dc629.bindPopup(popup_bc124353649f215afe27f053d8248c53)
+        ;
+
+        
+    
+    
+            var marker_202cae74430d54b7ab5662b05921da58 = L.marker(
+                [41.3481621290614, 2.14082446642706],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_7511d798e72d28d1409fac3d411d4f14 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_202cae74430d54b7ab5662b05921da58.setIcon(icon_7511d798e72d28d1409fac3d411d4f14);
+        
+    
+        var popup_c98d0458f0788b3f1d6e017333c1fa2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf41af6f6a4824e99c0339acb6dde0fa = $(`<div id="html_bf41af6f6a4824e99c0339acb6dde0fa" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_c98d0458f0788b3f1d6e017333c1fa2d.setContent(html_bf41af6f6a4824e99c0339acb6dde0fa);
+            
+        
+
+        marker_202cae74430d54b7ab5662b05921da58.bindPopup(popup_c98d0458f0788b3f1d6e017333c1fa2d)
+        ;
+
+        
+    
+    
+            var marker_3758884362b5a2f6d2a6b993fc2f9f41 = L.marker(
+                [41.3717927298038, 2.14345040598904],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_cd18d2db6affc851bfee0135ca826f5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3758884362b5a2f6d2a6b993fc2f9f41.setIcon(icon_cd18d2db6affc851bfee0135ca826f5b);
+        
+    
+        var popup_12d8ec25ccf5f0f3f884983e888d19b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f66beb0ed2452f02f92814be1ed78355 = $(`<div id="html_f66beb0ed2452f02f92814be1ed78355" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_12d8ec25ccf5f0f3f884983e888d19b5.setContent(html_f66beb0ed2452f02f92814be1ed78355);
+            
+        
+
+        marker_3758884362b5a2f6d2a6b993fc2f9f41.bindPopup(popup_12d8ec25ccf5f0f3f884983e888d19b5)
+        ;
+
+        
+    
+    
+            var marker_84ec5879fd1670fb6317feb4e147d1f4 = L.marker(
+                [41.3605577429578, 2.14089159275384],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_082957049657e353d55148d66308b7be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_84ec5879fd1670fb6317feb4e147d1f4.setIcon(icon_082957049657e353d55148d66308b7be);
+        
+    
+        var popup_0b90c7e0bac48400151fa2a3f1e9d1e9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_536fd2ecd3837132eb10e6c2f1541245 = $(`<div id="html_536fd2ecd3837132eb10e6c2f1541245" style="width: 100.0%; height: 100.0%;">Reason: Changing lanes without caution</div>`)[0];
+                popup_0b90c7e0bac48400151fa2a3f1e9d1e9.setContent(html_536fd2ecd3837132eb10e6c2f1541245);
+            
+        
+
+        marker_84ec5879fd1670fb6317feb4e147d1f4.bindPopup(popup_0b90c7e0bac48400151fa2a3f1e9d1e9)
+        ;
+
+        
+    
+    
+            var marker_3697f9b6beee3d47f3c78eec51b4929f = L.marker(
+                [41.4479193338615, 2.18069446029736],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_bbe656b9425d9f210fe4e56636a5b34d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3697f9b6beee3d47f3c78eec51b4929f.setIcon(icon_bbe656b9425d9f210fe4e56636a5b34d);
+        
+    
+        var popup_5b089f63b7444b3997de04afc4cb95d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c5952e60bcd857a19db6de3c91e4bd6 = $(`<div id="html_0c5952e60bcd857a19db6de3c91e4bd6" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_5b089f63b7444b3997de04afc4cb95d8.setContent(html_0c5952e60bcd857a19db6de3c91e4bd6);
+            
+        
+
+        marker_3697f9b6beee3d47f3c78eec51b4929f.bindPopup(popup_5b089f63b7444b3997de04afc4cb95d8)
+        ;
+
+        
+    
+    
+            var marker_fbbf35c00b7b6b7834101ac4f57d636d = L.marker(
+                [41.4410822435034, 2.16528276010992],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_127a423a3bb32da758e7890b526f80ad = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_fbbf35c00b7b6b7834101ac4f57d636d.setIcon(icon_127a423a3bb32da758e7890b526f80ad);
+        
+    
+        var popup_dba0a648e5cd9172cf8a2d07ade02aa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f5327555c4d5d7b733f3abc0d536a44 = $(`<div id="html_9f5327555c4d5d7b733f3abc0d536a44" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_dba0a648e5cd9172cf8a2d07ade02aa9.setContent(html_9f5327555c4d5d7b733f3abc0d536a44);
+            
+        
+
+        marker_fbbf35c00b7b6b7834101ac4f57d636d.bindPopup(popup_dba0a648e5cd9172cf8a2d07ade02aa9)
+        ;
+
+        
+    
+    
+            var marker_edd83550435631f19b6726192107d602 = L.marker(
+                [41.4333993486469, 2.13230375468598],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_401279780978b2c055e49eff510b38cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_edd83550435631f19b6726192107d602.setIcon(icon_401279780978b2c055e49eff510b38cb);
+        
+    
+        var popup_8e703e05ff8d781becd9f92dc7cb8a36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_899d43ae4bccede4c7c3a8a25ac987d9 = $(`<div id="html_899d43ae4bccede4c7c3a8a25ac987d9" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_8e703e05ff8d781becd9f92dc7cb8a36.setContent(html_899d43ae4bccede4c7c3a8a25ac987d9);
+            
+        
+
+        marker_edd83550435631f19b6726192107d602.bindPopup(popup_8e703e05ff8d781becd9f92dc7cb8a36)
+        ;
+
+        
+    
+    
+            var marker_146f52ca55c67a845ffc5789b4ca09f4 = L.marker(
+                [41.3934346777442, 2.15845989881817],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_c2d460a8b32db7f0df7f9473dacefcec = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_146f52ca55c67a845ffc5789b4ca09f4.setIcon(icon_c2d460a8b32db7f0df7f9473dacefcec);
+        
+    
+        var popup_f4d3b20d966ed69538394407c4bddbc5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac18f9b16d0769b957c151c3b5287eea = $(`<div id="html_ac18f9b16d0769b957c151c3b5287eea" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_f4d3b20d966ed69538394407c4bddbc5.setContent(html_ac18f9b16d0769b957c151c3b5287eea);
+            
+        
+
+        marker_146f52ca55c67a845ffc5789b4ca09f4.bindPopup(popup_f4d3b20d966ed69538394407c4bddbc5)
+        ;
+
+        
+    
+    
+            var marker_711b35436d5a18ac9a3d1c4226b037ca = L.marker(
+                [41.3848894220322, 2.16131983098444],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_f74d14fde5a4d4b8c604b1178b34b500 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_711b35436d5a18ac9a3d1c4226b037ca.setIcon(icon_f74d14fde5a4d4b8c604b1178b34b500);
+        
+    
+        var popup_1b5d95ccb06d83129c674914e02c4b47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_efb0f822f3d5097070688e8ecbf91d4d = $(`<div id="html_efb0f822f3d5097070688e8ecbf91d4d" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_1b5d95ccb06d83129c674914e02c4b47.setContent(html_efb0f822f3d5097070688e8ecbf91d4d);
+            
+        
+
+        marker_711b35436d5a18ac9a3d1c4226b037ca.bindPopup(popup_1b5d95ccb06d83129c674914e02c4b47)
+        ;
+
+        
+    
+    
+            var marker_ca611fb03ee397bc97f49ececeffa58a = L.marker(
+                [41.4128892403682, 2.19816596414715],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_5903691388aed6b4abfa3cf0fd93182a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ca611fb03ee397bc97f49ececeffa58a.setIcon(icon_5903691388aed6b4abfa3cf0fd93182a);
+        
+    
+        var popup_843992c40d5a2c4c8939ea6573ec718d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88152e4de79f606bf64d53ccc021cd12 = $(`<div id="html_88152e4de79f606bf64d53ccc021cd12" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_843992c40d5a2c4c8939ea6573ec718d.setContent(html_88152e4de79f606bf64d53ccc021cd12);
+            
+        
+
+        marker_ca611fb03ee397bc97f49ececeffa58a.bindPopup(popup_843992c40d5a2c4c8939ea6573ec718d)
+        ;
+
+        
+    
+    
+            var marker_7d77841d6c5d2c274dd5a99f3976b9fc = L.marker(
+                [41.3883270258195, 2.1561793182882],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_ac497920f74cb68e9fd2a86d5009a6a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7d77841d6c5d2c274dd5a99f3976b9fc.setIcon(icon_ac497920f74cb68e9fd2a86d5009a6a1);
+        
+    
+        var popup_12ec3e1688fc240482af7dcc1ad57223 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af162d96da1e54aa16ec9917f4e84d44 = $(`<div id="html_af162d96da1e54aa16ec9917f4e84d44" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_12ec3e1688fc240482af7dcc1ad57223.setContent(html_af162d96da1e54aa16ec9917f4e84d44);
+            
+        
+
+        marker_7d77841d6c5d2c274dd5a99f3976b9fc.bindPopup(popup_12ec3e1688fc240482af7dcc1ad57223)
+        ;
+
+        
+    
+    
+            var marker_663f79602e714ac99e9a1d130ff49b0a = L.marker(
+                [41.4284602929303, 2.15618153317694],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_7cf0f9b26e745ca4ee4a18e2db7deeba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_663f79602e714ac99e9a1d130ff49b0a.setIcon(icon_7cf0f9b26e745ca4ee4a18e2db7deeba);
+        
+    
+        var popup_b2073a191ea40a11d24d0a37357b7d58 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69849999ab1cf136acf95e2ed5293057 = $(`<div id="html_69849999ab1cf136acf95e2ed5293057" style="width: 100.0%; height: 100.0%;">Reason: Not respecting pedestrian crossings</div>`)[0];
+                popup_b2073a191ea40a11d24d0a37357b7d58.setContent(html_69849999ab1cf136acf95e2ed5293057);
+            
+        
+
+        marker_663f79602e714ac99e9a1d130ff49b0a.bindPopup(popup_b2073a191ea40a11d24d0a37357b7d58)
+        ;
+
+        
+    
+    
+            var marker_f82611ed2262bb5c29c01a4a8525b5a0 = L.marker(
+                [41.3845472447676, 2.10762742465073],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_c7d6aed53fb992707ac07424a658a011 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f82611ed2262bb5c29c01a4a8525b5a0.setIcon(icon_c7d6aed53fb992707ac07424a658a011);
+        
+    
+        var popup_32dbfae6d401dbd0dbd1c4ae978b394b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c1ae37de3913057eed3fe8ffcc027613 = $(`<div id="html_c1ae37de3913057eed3fe8ffcc027613" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_32dbfae6d401dbd0dbd1c4ae978b394b.setContent(html_c1ae37de3913057eed3fe8ffcc027613);
+            
+        
+
+        marker_f82611ed2262bb5c29c01a4a8525b5a0.bindPopup(popup_32dbfae6d401dbd0dbd1c4ae978b394b)
+        ;
+
+        
+    
+    
+            var marker_adfef57d1690bd28981b9371f4f2d2f5 = L.marker(
+                [41.4071452563784, 2.19501823109332],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_17c515e7b48bbc62d55946ebb02b8361 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_adfef57d1690bd28981b9371f4f2d2f5.setIcon(icon_17c515e7b48bbc62d55946ebb02b8361);
+        
+    
+        var popup_f186965742b3783029ca1f7a58382391 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4dc1fe9ef2ec280e3a00deac6416081 = $(`<div id="html_b4dc1fe9ef2ec280e3a00deac6416081" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_f186965742b3783029ca1f7a58382391.setContent(html_b4dc1fe9ef2ec280e3a00deac6416081);
+            
+        
+
+        marker_adfef57d1690bd28981b9371f4f2d2f5.bindPopup(popup_f186965742b3783029ca1f7a58382391)
+        ;
+
+        
+    
+    
+            var marker_515cff437b234f9d19bf81eaa9391984 = L.marker(
+                [41.4091287663857, 2.15055213037097],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_d6b19e86439d13a634e5841f7196e7f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_515cff437b234f9d19bf81eaa9391984.setIcon(icon_d6b19e86439d13a634e5841f7196e7f5);
+        
+    
+        var popup_03223fd33d93991f5b752b8dd10dce81 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de2ed8dba5fb9dcf5007798b97185c50 = $(`<div id="html_de2ed8dba5fb9dcf5007798b97185c50" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_03223fd33d93991f5b752b8dd10dce81.setContent(html_de2ed8dba5fb9dcf5007798b97185c50);
+            
+        
+
+        marker_515cff437b234f9d19bf81eaa9391984.bindPopup(popup_03223fd33d93991f5b752b8dd10dce81)
+        ;
+
+        
+    
+    
+            var marker_1b409532c3a5b479b5565a0ac4848a04 = L.marker(
+                [41.3431848311335, 2.12666925944513],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_fab4aecfc243b00f8f30db942ba0a6c1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1b409532c3a5b479b5565a0ac4848a04.setIcon(icon_fab4aecfc243b00f8f30db942ba0a6c1);
+        
+    
+        var popup_ba492d891be60cfa2dcdab2f380846ca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a9d368efa63be6f32f8dc8fefdb43dd3 = $(`<div id="html_a9d368efa63be6f32f8dc8fefdb43dd3" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_ba492d891be60cfa2dcdab2f380846ca.setContent(html_a9d368efa63be6f32f8dc8fefdb43dd3);
+            
+        
+
+        marker_1b409532c3a5b479b5565a0ac4848a04.bindPopup(popup_ba492d891be60cfa2dcdab2f380846ca)
+        ;
+
+        
+    
+    
+            var marker_4fb7f9b8e659453f071ed9d7ff1e1572 = L.marker(
+                [41.3829482948329, 2.18613033771792],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_f23d6565ce65dcb80db716d38cd2376a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4fb7f9b8e659453f071ed9d7ff1e1572.setIcon(icon_f23d6565ce65dcb80db716d38cd2376a);
+        
+    
+        var popup_ececa6f086b17a32d5c1548c9abf3ba0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d33dc8eef4cba4ffab7b43ce063a2d91 = $(`<div id="html_d33dc8eef4cba4ffab7b43ce063a2d91" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_ececa6f086b17a32d5c1548c9abf3ba0.setContent(html_d33dc8eef4cba4ffab7b43ce063a2d91);
+            
+        
+
+        marker_4fb7f9b8e659453f071ed9d7ff1e1572.bindPopup(popup_ececa6f086b17a32d5c1548c9abf3ba0)
+        ;
+
+        
+    
+    
+            var marker_74a62aa0f0e00cfedeeab53ac8fe4a73 = L.marker(
+                [41.3941744730707, 2.14233450413531],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_0315555b63c0aaf12569174f79fac1a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_74a62aa0f0e00cfedeeab53ac8fe4a73.setIcon(icon_0315555b63c0aaf12569174f79fac1a1);
+        
+    
+        var popup_81f1434e0e8093aff16f6ebb3b9dadf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_45472de0a4df2b02e08dfc85c1aa4507 = $(`<div id="html_45472de0a4df2b02e08dfc85c1aa4507" style="width: 100.0%; height: 100.0%;">Reason: Lack of precaution entering traffic</div>`)[0];
+                popup_81f1434e0e8093aff16f6ebb3b9dadf8.setContent(html_45472de0a4df2b02e08dfc85c1aa4507);
+            
+        
+
+        marker_74a62aa0f0e00cfedeeab53ac8fe4a73.bindPopup(popup_81f1434e0e8093aff16f6ebb3b9dadf8)
+        ;
+
+        
+    
+    
+            var marker_d8a999a29d6c2ac049a1619e6587312d = L.marker(
+                [41.4489012918119, 2.19452872747633],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_3f89e535367db665b00b147dc10de1a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d8a999a29d6c2ac049a1619e6587312d.setIcon(icon_3f89e535367db665b00b147dc10de1a9);
+        
+    
+        var popup_d191d17b634bbea5c888d86d2f73cd7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_491eeedd9ecc7f102c6e1d047d26a7cb = $(`<div id="html_491eeedd9ecc7f102c6e1d047d26a7cb" style="width: 100.0%; height: 100.0%;">Reason: Not respecting distances</div>`)[0];
+                popup_d191d17b634bbea5c888d86d2f73cd7b.setContent(html_491eeedd9ecc7f102c6e1d047d26a7cb);
+            
+        
+
+        marker_d8a999a29d6c2ac049a1619e6587312d.bindPopup(popup_d191d17b634bbea5c888d86d2f73cd7b)
+        ;
+
+        
+    
+    
+            var marker_20bc56ace75f012dfe595735f57876e3 = L.marker(
+                [41.3750743125203, 2.17781106608529],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_b3ab3f36cb00161c339559b071bf00a0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_20bc56ace75f012dfe595735f57876e3.setIcon(icon_b3ab3f36cb00161c339559b071bf00a0);
+        
+    
+        var popup_7ff9341fa104f7e81813da49cfb067d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6874073529a632daca347c28fabbd3a5 = $(`<div id="html_6874073529a632daca347c28fabbd3a5" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_7ff9341fa104f7e81813da49cfb067d9.setContent(html_6874073529a632daca347c28fabbd3a5);
+            
+        
+
+        marker_20bc56ace75f012dfe595735f57876e3.bindPopup(popup_7ff9341fa104f7e81813da49cfb067d9)
+        ;
+
+        
+    
+    
+            var marker_f2b0b748cf7a088d8ba160d1e49ed21a = L.marker(
+                [41.3973967691103, 2.1764304556389],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_d8603f3b58b0856e8a2158d56be29251 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f2b0b748cf7a088d8ba160d1e49ed21a.setIcon(icon_d8603f3b58b0856e8a2158d56be29251);
+        
+    
+        var popup_ddf567bc72e0cc0846828096f24f7c47 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6943b8701524f11d3f97ce86feb406b = $(`<div id="html_c6943b8701524f11d3f97ce86feb406b" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_ddf567bc72e0cc0846828096f24f7c47.setContent(html_c6943b8701524f11d3f97ce86feb406b);
+            
+        
+
+        marker_f2b0b748cf7a088d8ba160d1e49ed21a.bindPopup(popup_ddf567bc72e0cc0846828096f24f7c47)
+        ;
+
+        
+    
+    
+            var marker_4d081f9b1e5684d716f90c82f63b2c91 = L.marker(
+                [41.4130336139103, 2.18678045421224],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_564f9519db3f6dd5861370021c52a760 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4d081f9b1e5684d716f90c82f63b2c91.setIcon(icon_564f9519db3f6dd5861370021c52a760);
+        
+    
+        var popup_074eda00b0bebe6b12d3f00b8d6aae80 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b44c54630c4fa27132ebbb54bce1f65d = $(`<div id="html_b44c54630c4fa27132ebbb54bce1f65d" style="width: 100.0%; height: 100.0%;">Reason: Lack of precaution when reversing</div>`)[0];
+                popup_074eda00b0bebe6b12d3f00b8d6aae80.setContent(html_b44c54630c4fa27132ebbb54bce1f65d);
+            
+        
+
+        marker_4d081f9b1e5684d716f90c82f63b2c91.bindPopup(popup_074eda00b0bebe6b12d3f00b8d6aae80)
+        ;
+
+        
+    
+    
+            var marker_947312321a859917800cb93227f81854 = L.marker(
+                [41.4082903215255, 2.18827940017625],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_8ea780b5068bad6830f1f356ad3d985a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_947312321a859917800cb93227f81854.setIcon(icon_8ea780b5068bad6830f1f356ad3d985a);
+        
+    
+        var popup_89ebe96891c68839a69aa21bf7b3d7cb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dd7866043850f097b9c9e4ed84d3f18 = $(`<div id="html_5dd7866043850f097b9c9e4ed84d3f18" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_89ebe96891c68839a69aa21bf7b3d7cb.setContent(html_5dd7866043850f097b9c9e4ed84d3f18);
+            
+        
+
+        marker_947312321a859917800cb93227f81854.bindPopup(popup_89ebe96891c68839a69aa21bf7b3d7cb)
+        ;
+
+        
+    
+    
+            var marker_b45e13953821f3cbd247b3605449d408 = L.marker(
+                [41.395884132229, 2.17552380441245],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_f37a2b0e899cd4fcfdf68b0187461f0b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b45e13953821f3cbd247b3605449d408.setIcon(icon_f37a2b0e899cd4fcfdf68b0187461f0b);
+        
+    
+        var popup_bcfc6eb120563f35cf748e15912965ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61be81fed1eee1e2474d7596dfad3701 = $(`<div id="html_61be81fed1eee1e2474d7596dfad3701" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_bcfc6eb120563f35cf748e15912965ef.setContent(html_61be81fed1eee1e2474d7596dfad3701);
+            
+        
+
+        marker_b45e13953821f3cbd247b3605449d408.bindPopup(popup_bcfc6eb120563f35cf748e15912965ef)
+        ;
+
+        
+    
+    
+            var marker_547631555fb756d967145713ff61ca69 = L.marker(
+                [41.4333993486469, 2.13230375468598],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_791b24e4e0d0fd2a68f777c1a117d5d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_547631555fb756d967145713ff61ca69.setIcon(icon_791b24e4e0d0fd2a68f777c1a117d5d8);
+        
+    
+        var popup_0f3c4d29edc6b3f6d357b631c261cd7e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79fd445e65aabe3d51552eaf1e695c25 = $(`<div id="html_79fd445e65aabe3d51552eaf1e695c25" style="width: 100.0%; height: 100.0%;">Reason: Improper/defective overtaking</div>`)[0];
+                popup_0f3c4d29edc6b3f6d357b631c261cd7e.setContent(html_79fd445e65aabe3d51552eaf1e695c25);
+            
+        
+
+        marker_547631555fb756d967145713ff61ca69.bindPopup(popup_0f3c4d29edc6b3f6d357b631c261cd7e)
+        ;
+
+        
+    
+    
+            var marker_6dc07a4ae223e263db2d525fc73810ef = L.marker(
+                [41.399392466449, 2.17086148939138],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_2c694f741472c4adff3e874aa3d27805 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6dc07a4ae223e263db2d525fc73810ef.setIcon(icon_2c694f741472c4adff3e874aa3d27805);
+        
+    
+        var popup_c8c4f25ce120b8fba075e57b9cbcb771 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_810866eaea6dbcdd4c2def30780432fe = $(`<div id="html_810866eaea6dbcdd4c2def30780432fe" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_c8c4f25ce120b8fba075e57b9cbcb771.setContent(html_810866eaea6dbcdd4c2def30780432fe);
+            
+        
+
+        marker_6dc07a4ae223e263db2d525fc73810ef.bindPopup(popup_c8c4f25ce120b8fba075e57b9cbcb771)
+        ;
+
+        
+    
+    
+            var marker_6a35f0cf61765c66fcf2261161087e29 = L.marker(
+                [41.4060065128872, 2.17360735977846],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_e037c4db728b2afeb1b5de3cebda662a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6a35f0cf61765c66fcf2261161087e29.setIcon(icon_e037c4db728b2afeb1b5de3cebda662a);
+        
+    
+        var popup_c7c21398c535c5c1490891a8ac5c253c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c14dcc31d012ee104b1e141b75396a1a = $(`<div id="html_c14dcc31d012ee104b1e141b75396a1a" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_c7c21398c535c5c1490891a8ac5c253c.setContent(html_c14dcc31d012ee104b1e141b75396a1a);
+            
+        
+
+        marker_6a35f0cf61765c66fcf2261161087e29.bindPopup(popup_c7c21398c535c5c1490891a8ac5c253c)
+        ;
+
+        
+    
+    
+            var marker_026020aa8e22b1624318d0460f09aa04 = L.marker(
+                [41.4417707928648, 2.16264581016839],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_9b57a9117d1838470c2f6585f5399453 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_026020aa8e22b1624318d0460f09aa04.setIcon(icon_9b57a9117d1838470c2f6585f5399453);
+        
+    
+        var popup_e3e2f0f9a6bb76eadd68448daeca57ae = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_add37088a550a74873c8fff4e0d6f9de = $(`<div id="html_add37088a550a74873c8fff4e0d6f9de" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_e3e2f0f9a6bb76eadd68448daeca57ae.setContent(html_add37088a550a74873c8fff4e0d6f9de);
+            
+        
+
+        marker_026020aa8e22b1624318d0460f09aa04.bindPopup(popup_e3e2f0f9a6bb76eadd68448daeca57ae)
+        ;
+
+        
+    
+    
+            var marker_f09794e658833e30533b6120f4dc750e = L.marker(
+                [41.4296568641675, 2.20381408690452],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_d18b177058bceb700735d7ca77e2a4f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f09794e658833e30533b6120f4dc750e.setIcon(icon_d18b177058bceb700735d7ca77e2a4f1);
+        
+    
+        var popup_b5331decdc2432942b85b443336608c1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2cf7ad6017a8c97306e6ce25821ea366 = $(`<div id="html_2cf7ad6017a8c97306e6ce25821ea366" style="width: 100.0%; height: 100.0%;">Reason: Improper or careless turn</div>`)[0];
+                popup_b5331decdc2432942b85b443336608c1.setContent(html_2cf7ad6017a8c97306e6ce25821ea366);
+            
+        
+
+        marker_f09794e658833e30533b6120f4dc750e.bindPopup(popup_b5331decdc2432942b85b443336608c1)
+        ;
+
+        
+    
+    
+            var marker_afca4afdddef7bdd2cd9f0a200e414d4 = L.marker(
+                [41.3977222320647, 2.1640804036937],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_0fb869d88dfa6c67e96d1a6df9b46dbd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_afca4afdddef7bdd2cd9f0a200e414d4.setIcon(icon_0fb869d88dfa6c67e96d1a6df9b46dbd);
+        
+    
+        var popup_c5761125cf6c03537ca43af111d7f14b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4957ecdbc525163548c944778dd3ec8 = $(`<div id="html_d4957ecdbc525163548c944778dd3ec8" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_c5761125cf6c03537ca43af111d7f14b.setContent(html_d4957ecdbc525163548c944778dd3ec8);
+            
+        
+
+        marker_afca4afdddef7bdd2cd9f0a200e414d4.bindPopup(popup_c5761125cf6c03537ca43af111d7f14b)
+        ;
+
+        
+    
+    
+            var marker_b6fe23b0760cf78d1df6f7fe7e1a41af = L.marker(
+                [41.4410956634205, 2.16740805053869],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_24f68c145470f356803a2f1430c21aa1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b6fe23b0760cf78d1df6f7fe7e1a41af.setIcon(icon_24f68c145470f356803a2f1430c21aa1);
+        
+    
+        var popup_c13fa7022beb9396d73f9ce09db8cd9b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28e062fab734d136d8cc9966168448cd = $(`<div id="html_28e062fab734d136d8cc9966168448cd" style="width: 100.0%; height: 100.0%;">Reason: Improper or careless turn</div>`)[0];
+                popup_c13fa7022beb9396d73f9ce09db8cd9b.setContent(html_28e062fab734d136d8cc9966168448cd);
+            
+        
+
+        marker_b6fe23b0760cf78d1df6f7fe7e1a41af.bindPopup(popup_c13fa7022beb9396d73f9ce09db8cd9b)
+        ;
+
+        
+    
+    
+            var marker_23e48cfda554f5084a0b2d8abf2d2e9d = L.marker(
+                [41.4096696843733, 2.17547934548371],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_0f1e8d320ee308f76e62fe6cfc6d2b34 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_23e48cfda554f5084a0b2d8abf2d2e9d.setIcon(icon_0f1e8d320ee308f76e62fe6cfc6d2b34);
+        
+    
+        var popup_1280e121a3ba8e27c7db20447a763a8b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05ded3088f3289beccb443f7fc51033c = $(`<div id="html_05ded3088f3289beccb443f7fc51033c" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_1280e121a3ba8e27c7db20447a763a8b.setContent(html_05ded3088f3289beccb443f7fc51033c);
+            
+        
+
+        marker_23e48cfda554f5084a0b2d8abf2d2e9d.bindPopup(popup_1280e121a3ba8e27c7db20447a763a8b)
+        ;
+
+        
+    
+    
+            var marker_bc3e02507a1c971a825832981341dae1 = L.marker(
+                [41.3948892265829, 2.13176694144341],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_037177d431723ed73ad2969f13f13f57 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_bc3e02507a1c971a825832981341dae1.setIcon(icon_037177d431723ed73ad2969f13f13f57);
+        
+    
+        var popup_929d2cb12525d122518cea0687f57750 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36a8a76a619068fae6bcb85ab4fd1db0 = $(`<div id="html_36a8a76a619068fae6bcb85ab4fd1db0" style="width: 100.0%; height: 100.0%;">Reason: Lack of precaution entering traffic</div>`)[0];
+                popup_929d2cb12525d122518cea0687f57750.setContent(html_36a8a76a619068fae6bcb85ab4fd1db0);
+            
+        
+
+        marker_bc3e02507a1c971a825832981341dae1.bindPopup(popup_929d2cb12525d122518cea0687f57750)
+        ;
+
+        
+    
+    
+            var marker_1c333f19eabd08a75f22adbc3414d4ff = L.marker(
+                [41.3773267139619, 2.12867425072404],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_4f3bcca3b920b75846d822826f5ac66b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1c333f19eabd08a75f22adbc3414d4ff.setIcon(icon_4f3bcca3b920b75846d822826f5ac66b);
+        
+    
+        var popup_f4969c98779666d903b532f7ec200d90 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ead75e48f014d71300adfe6efc01ee6 = $(`<div id="html_8ead75e48f014d71300adfe6efc01ee6" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_f4969c98779666d903b532f7ec200d90.setContent(html_8ead75e48f014d71300adfe6efc01ee6);
+            
+        
+
+        marker_1c333f19eabd08a75f22adbc3414d4ff.bindPopup(popup_f4969c98779666d903b532f7ec200d90)
+        ;
+
+        
+    
+    
+            var marker_1841857fee079e50aaf59c6087ac2aa1 = L.marker(
+                [41.4320495127878, 2.18284937458556],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_9b6480db10dfcd05a94b88fc938a1d4a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1841857fee079e50aaf59c6087ac2aa1.setIcon(icon_9b6480db10dfcd05a94b88fc938a1d4a);
+        
+    
+        var popup_c6f4122cb955e51561d3cae997256cba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ee54b36b719ce9d9175a7ea8038af92d = $(`<div id="html_ee54b36b719ce9d9175a7ea8038af92d" style="width: 100.0%; height: 100.0%;">Reason: Changing lanes without caution</div>`)[0];
+                popup_c6f4122cb955e51561d3cae997256cba.setContent(html_ee54b36b719ce9d9175a7ea8038af92d);
+            
+        
+
+        marker_1841857fee079e50aaf59c6087ac2aa1.bindPopup(popup_c6f4122cb955e51561d3cae997256cba)
+        ;
+
+        
+    
+    
+            var marker_306efa779a06bf7bbbf7e12a41fa39ba = L.marker(
+                [41.3721602798659, 2.16752452051766],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_a872c724620743eab306cfdd8815f59b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_306efa779a06bf7bbbf7e12a41fa39ba.setIcon(icon_a872c724620743eab306cfdd8815f59b);
+        
+    
+        var popup_c60d73a0c7d9aed32d11666241c2fdc2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3f32dd4444f6f0035dd344df85bd6c9c = $(`<div id="html_3f32dd4444f6f0035dd344df85bd6c9c" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_c60d73a0c7d9aed32d11666241c2fdc2.setContent(html_3f32dd4444f6f0035dd344df85bd6c9c);
+            
+        
+
+        marker_306efa779a06bf7bbbf7e12a41fa39ba.bindPopup(popup_c60d73a0c7d9aed32d11666241c2fdc2)
+        ;
+
+        
+    
+    
+            var marker_ba59e10be90fed56885a1448d4e407ad = L.marker(
+                [41.3777690390826, 2.1167489400467],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_f185288362997f29ec46c2f267ff51f9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ba59e10be90fed56885a1448d4e407ad.setIcon(icon_f185288362997f29ec46c2f267ff51f9);
+        
+    
+        var popup_e52ae23518a0e7d81dcbf7ee29482433 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bc4c9a589b3e4f1708f0ee4261aca9f0 = $(`<div id="html_bc4c9a589b3e4f1708f0ee4261aca9f0" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_e52ae23518a0e7d81dcbf7ee29482433.setContent(html_bc4c9a589b3e4f1708f0ee4261aca9f0);
+            
+        
+
+        marker_ba59e10be90fed56885a1448d4e407ad.bindPopup(popup_e52ae23518a0e7d81dcbf7ee29482433)
+        ;
+
+        
+    
+    
+            var marker_cc27c3dee834f24699fbc7a87553cd16 = L.marker(
+                [41.4163600005568, 2.17379909089116],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_e6fa43f84f656014cece35f6ebca2773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cc27c3dee834f24699fbc7a87553cd16.setIcon(icon_e6fa43f84f656014cece35f6ebca2773);
+        
+    
+        var popup_5cdbf473297b7ee2ed685c5ddf7fcf49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e83562d3cdc5cea3c2f48cf447dbfe1e = $(`<div id="html_e83562d3cdc5cea3c2f48cf447dbfe1e" style="width: 100.0%; height: 100.0%;">Reason: Disobeying other signals</div>`)[0];
+                popup_5cdbf473297b7ee2ed685c5ddf7fcf49.setContent(html_e83562d3cdc5cea3c2f48cf447dbfe1e);
+            
+        
+
+        marker_cc27c3dee834f24699fbc7a87553cd16.bindPopup(popup_5cdbf473297b7ee2ed685c5ddf7fcf49)
+        ;
+
+        
+    
+    
+            var marker_d7522e25883d547dcae4c2d771525904 = L.marker(
+                [41.4430044868499, 2.18743273254312],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_0e26d895ae135ae0ca6ceb2bf66b1c01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d7522e25883d547dcae4c2d771525904.setIcon(icon_0e26d895ae135ae0ca6ceb2bf66b1c01);
+        
+    
+        var popup_cda2e7af4f884c055033e3c3c17f1c5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7cff50da6da1da49aad9544b153be09 = $(`<div id="html_d7cff50da6da1da49aad9544b153be09" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_cda2e7af4f884c055033e3c3c17f1c5d.setContent(html_d7cff50da6da1da49aad9544b153be09);
+            
+        
+
+        marker_d7522e25883d547dcae4c2d771525904.bindPopup(popup_cda2e7af4f884c055033e3c3c17f1c5d)
+        ;
+
+        
+    
+    
+            var marker_906838ae679d39fa24af0f12301f36f5 = L.marker(
+                [41.4032229665906, 2.12534746364725],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_e5847212caedc1bbcbb4c97349317e51 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_906838ae679d39fa24af0f12301f36f5.setIcon(icon_e5847212caedc1bbcbb4c97349317e51);
+        
+    
+        var popup_aefff3f631dddaaa676f9236cb60a8f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da2ee29c002a1f85ff345679c5d8d8e8 = $(`<div id="html_da2ee29c002a1f85ff345679c5d8d8e8" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_aefff3f631dddaaa676f9236cb60a8f6.setContent(html_da2ee29c002a1f85ff345679c5d8d8e8);
+            
+        
+
+        marker_906838ae679d39fa24af0f12301f36f5.bindPopup(popup_aefff3f631dddaaa676f9236cb60a8f6)
+        ;
+
+        
+    
+    
+            var marker_83398df051e09333e0796f196a6fbcfd = L.marker(
+                [41.3958399626822, 2.1336425013439],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_3c71e8782c81c279906802d037d858a9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_83398df051e09333e0796f196a6fbcfd.setIcon(icon_3c71e8782c81c279906802d037d858a9);
+        
+    
+        var popup_e449c312ead47cd841b1dc9f41bcb19d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb52ddda88583550cc344e0cf751a521 = $(`<div id="html_bb52ddda88583550cc344e0cf751a521" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_e449c312ead47cd841b1dc9f41bcb19d.setContent(html_bb52ddda88583550cc344e0cf751a521);
+            
+        
+
+        marker_83398df051e09333e0796f196a6fbcfd.bindPopup(popup_e449c312ead47cd841b1dc9f41bcb19d)
+        ;
+
+        
+    
+    
+            var marker_00ae5508a909b30c79b0f4e2a229fba9 = L.marker(
+                [41.3925847041391, 2.16184998007117],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_e541787e2c67930de95e459f6f2dca35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_00ae5508a909b30c79b0f4e2a229fba9.setIcon(icon_e541787e2c67930de95e459f6f2dca35);
+        
+    
+        var popup_70e63981a1f20afff762809abe639195 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_908d0f3876eb9a0d21a77bcdce83cfc7 = $(`<div id="html_908d0f3876eb9a0d21a77bcdce83cfc7" style="width: 100.0%; height: 100.0%;">Reason: Improper or careless turn</div>`)[0];
+                popup_70e63981a1f20afff762809abe639195.setContent(html_908d0f3876eb9a0d21a77bcdce83cfc7);
+            
+        
+
+        marker_00ae5508a909b30c79b0f4e2a229fba9.bindPopup(popup_70e63981a1f20afff762809abe639195)
+        ;
+
+        
+    
+    
+            var marker_484731d4a7b238ab00cc1df819cb9941 = L.marker(
+                [41.3959521876026, 2.15305907597063],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_70df8ec659104d31a4be17f62731cb49 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_484731d4a7b238ab00cc1df819cb9941.setIcon(icon_70df8ec659104d31a4be17f62731cb49);
+        
+    
+        var popup_6c36d7b517c0ecb5e4e50bf4126f548d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4eac517b9b82e9483e72867d6b2d8bf0 = $(`<div id="html_4eac517b9b82e9483e72867d6b2d8bf0" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_6c36d7b517c0ecb5e4e50bf4126f548d.setContent(html_4eac517b9b82e9483e72867d6b2d8bf0);
+            
+        
+
+        marker_484731d4a7b238ab00cc1df819cb9941.bindPopup(popup_6c36d7b517c0ecb5e4e50bf4126f548d)
+        ;
+
+        
+    
+    
+            var marker_dba7d86505d89a60fc2f35e529d5250d = L.marker(
+                [41.3884963828839, 2.15891266722607],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_4ff6af47795ad82c2f42194ada92f4fa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_dba7d86505d89a60fc2f35e529d5250d.setIcon(icon_4ff6af47795ad82c2f42194ada92f4fa);
+        
+    
+        var popup_f8e60bdbd31cdf8a51db7e14355b03fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0dc8b6964cb614932fc953f1ab61ee87 = $(`<div id="html_0dc8b6964cb614932fc953f1ab61ee87" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_f8e60bdbd31cdf8a51db7e14355b03fc.setContent(html_0dc8b6964cb614932fc953f1ab61ee87);
+            
+        
+
+        marker_dba7d86505d89a60fc2f35e529d5250d.bindPopup(popup_f8e60bdbd31cdf8a51db7e14355b03fc)
+        ;
+
+        
+    
+    
+            var marker_0b91ac2668102a6dc7e4fc0bb526d7ce = L.marker(
+                [41.3828297803823, 2.15129764356716],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_030c8a7ce2b45bc7433e9da8c70b3516 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0b91ac2668102a6dc7e4fc0bb526d7ce.setIcon(icon_030c8a7ce2b45bc7433e9da8c70b3516);
+        
+    
+        var popup_7cf13b8c4875a00e86569207639a03ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7ba981baed46f75ee5ab30ec970132b = $(`<div id="html_d7ba981baed46f75ee5ab30ec970132b" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_7cf13b8c4875a00e86569207639a03ce.setContent(html_d7ba981baed46f75ee5ab30ec970132b);
+            
+        
+
+        marker_0b91ac2668102a6dc7e4fc0bb526d7ce.bindPopup(popup_7cf13b8c4875a00e86569207639a03ce)
+        ;
+
+        
+    
+    
+            var marker_aa550560bcc9edb1a87285d9d4e86f38 = L.marker(
+                [41.3840722818766, 2.15276511483959],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_08b6f3d7b3ec118b227d11726b96f5d9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_aa550560bcc9edb1a87285d9d4e86f38.setIcon(icon_08b6f3d7b3ec118b227d11726b96f5d9);
+        
+    
+        var popup_7f17faa142a5bcf4fbce79db4599f5d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4dae5e9918a4fbd01967a9fe2cbe191a = $(`<div id="html_4dae5e9918a4fbd01967a9fe2cbe191a" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_7f17faa142a5bcf4fbce79db4599f5d7.setContent(html_4dae5e9918a4fbd01967a9fe2cbe191a);
+            
+        
+
+        marker_aa550560bcc9edb1a87285d9d4e86f38.bindPopup(popup_7f17faa142a5bcf4fbce79db4599f5d7)
+        ;
+
+        
+    
+    
+            var marker_3aa9b83bc2234dbaec171abfb3b916d8 = L.marker(
+                [41.4087418610367, 2.18108421908388],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_135db26eb05e3899f1c022209b9485de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3aa9b83bc2234dbaec171abfb3b916d8.setIcon(icon_135db26eb05e3899f1c022209b9485de);
+        
+    
+        var popup_8528e1ec6fcb4be8964b403ca4a85acb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ad48185d2fdbce564bd119a432ab7e4 = $(`<div id="html_1ad48185d2fdbce564bd119a432ab7e4" style="width: 100.0%; height: 100.0%;">Reason: Others</div>`)[0];
+                popup_8528e1ec6fcb4be8964b403ca4a85acb.setContent(html_1ad48185d2fdbce564bd119a432ab7e4);
+            
+        
+
+        marker_3aa9b83bc2234dbaec171abfb3b916d8.bindPopup(popup_8528e1ec6fcb4be8964b403ca4a85acb)
+        ;
+
+        
+    
+    
+            var marker_6d07222283decefd471b7a8c513b50f3 = L.marker(
+                [41.4027673849612, 2.17768818636218],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_2ed1978cbb14d2733948472bc4bddaa3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6d07222283decefd471b7a8c513b50f3.setIcon(icon_2ed1978cbb14d2733948472bc4bddaa3);
+        
+    
+        var popup_6e6ea617ad69157f7bf13948a7177286 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eb64e5d9cad5f85eed1a7c7027fd6672 = $(`<div id="html_eb64e5d9cad5f85eed1a7c7027fd6672" style="width: 100.0%; height: 100.0%;">Reason: Disobeying traffic lights</div>`)[0];
+                popup_6e6ea617ad69157f7bf13948a7177286.setContent(html_eb64e5d9cad5f85eed1a7c7027fd6672);
+            
+        
+
+        marker_6d07222283decefd471b7a8c513b50f3.bindPopup(popup_6e6ea617ad69157f7bf13948a7177286)
+        ;
+
+        
+    
+    
+            var marker_4c26622cc7e2fbf4813b0d20b4d4eaf5 = L.marker(
+                [41.4096826630368, 2.16346406899464],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_b465e4a092c3b9f710da47ab1bb8a276 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_4c26622cc7e2fbf4813b0d20b4d4eaf5.setIcon(icon_b465e4a092c3b9f710da47ab1bb8a276);
+        
+    
+        var popup_89cebbf0b79ba248525e8d8d72658a24 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_629f0d0695604c41d4dc255f1f7e3b1d = $(`<div id="html_629f0d0695604c41d4dc255f1f7e3b1d" style="width: 100.0%; height: 100.0%;">Reason: Disobeying other signals</div>`)[0];
+                popup_89cebbf0b79ba248525e8d8d72658a24.setContent(html_629f0d0695604c41d4dc255f1f7e3b1d);
+            
+        
+
+        marker_4c26622cc7e2fbf4813b0d20b4d4eaf5.bindPopup(popup_89cebbf0b79ba248525e8d8d72658a24)
+        ;
+
+        
+    
+    
+            var marker_484acd16d22a1c7397f54a36d4217776 = L.marker(
+                [41.3804019233742, 2.13950080196931],
+                {}
+            ).addTo(map_3319089abb0314c50f44879091103817);
+        
+    
+            var icon_7ceae578abad82117b4ecf184859a061 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_484acd16d22a1c7397f54a36d4217776.setIcon(icon_7ceae578abad82117b4ecf184859a061);
+        
+    
+        var popup_98cbaa26d266ddaabce72cf31efd805b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0af5db0d5ba8fda1d962a5a99a0280cd = $(`<div id="html_0af5db0d5ba8fda1d962a5a99a0280cd" style="width: 100.0%; height: 100.0%;">Reason: Lack of attention while driving</div>`)[0];
+                popup_98cbaa26d266ddaabce72cf31efd805b.setContent(html_0af5db0d5ba8fda1d962a5a99a0280cd);
+            
+        
+
+        marker_484acd16d22a1c7397f54a36d4217776.bindPopup(popup_98cbaa26d266ddaabce72cf31efd805b)
+        ;
+
+        
+    
+</script>
+</html>
